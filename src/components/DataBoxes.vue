@@ -5,25 +5,25 @@
       <h3 class="text-3xl text-blue-900 font-bold mb-4">Number Of Cases</h3>
 
       <div class="text-2xl mb-4">
-        <span class="font-bold">New:</span>
+        <span class="font-bold">New Cases:</span>
         {{ numberWithCommas(stats.NewConfirmed) }}
       </div>
       <div class="text-2xl mb-4">
-        <span class="font-bold">Total:</span>
+        <span class="font-bold">Total Deaths:</span>
         {{ numberWithCommas(stats.TotalConfirmed) }}
       </div>
     </div>
 
     <!-- Box 2 -->
     <div class="shadow-md bg-blue-200 p-10 text-center rounded">
-      <h3 class="text-3xl text-blue-900 font-bold mb-4">Deaths</h3>
+      <h3 class="text-3xl text-blue-900 font-bold mb-4">Number Of Deaths</h3>
 
       <div class="text-2xl mb-4">
-        <span class="font-bold">New:</span>
+        <span class="font-bold">New Cases:</span>
         {{ numberWithCommas(stats.NewDeaths) }}
       </div>
       <div class="text-2xl mb-4">
-        <span class="font-bold">Total:</span>
+        <span class="font-bold">Total Deaths:</span>
         {{ numberWithCommas(stats.TotalDeaths) }}
       </div>
     </div>

@@ -1,14 +1,11 @@
-# Vue Covid-19 Tracker
+# Covid 19 tracker
 
-Displays the new/total cases and deaths globaly as well as per country
+An easy way to view the covid cases globally and in your country
 
-## API
+## Live demo
 
-This project uses the [covid19api.com](https://covid19api.com/) by [Kyle Redelinghuys](https://twitter.com/ksredelinghuys)
+TO view the demo visit [Covid-tracker](covid-tracking19.netlify.app) 
 
-## Vue 3 Syntax
-
-The code has been changed to use Vue 3 syntax. Check the initial commit for the original tutorial code, which should work for Vue 2 & 3
 
 ### Setup
 
@@ -27,3 +24,5 @@ npm run serve
 ```
 npm run build
 ```
+
+
